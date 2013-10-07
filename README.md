@@ -1,8 +1,8 @@
 Content By Author - Joomla Content Plugin
+
 1.- Description
 
 Content By Author is a Joomla 2.5 content plugin that Allows you to pull lists of content items based on a specified author. Originally built by Dynamic Data Design for 1.5, I rewrote it for 2.5.
-
 
 2.- Features
 

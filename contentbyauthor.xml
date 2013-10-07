@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<extension version="2.5" type="plugin" group="content">
+	    <name>plg_contentbyauthor</name>
+        <author>Dynamic Data Design/Matt Sedlar</author>
+        <creationDate>October 2013</creationDate>
+        <copyright>Copyright (C) 2005 - 2013 Open Source Matters. All rights reserved.</copyright>
+        <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+        <authorEmail>mattsedlar@thegeekticket.com</authorEmail>
+        <authorUrl>thegeekticket.com</authorUrl>
+        <version>2.5.0</version>
+        <description>Allows you to pull lists of content items based on a specified author.</description>
+		
+		<files>
+			<filename plugin="contentbyauthor">contentbyauthor.php</filename>
+		</files>
+		
+	</extension>

@@ -45,10 +45,13 @@ class plgContentContentByAuthor extends JPlugin {
 				$html = '';
 
 				foreach($items as $item ){
-					$html .= '<p><a href="'.$this->basurl.'/index.php?option=com_content&id='.$item->id.'&view=article">'.$item->title.'</a><br />'
-					."\n".$item->intro.'</p>';
-					$i++;
-					
+
+					$url = JRoute::_('index.php?view=article&id=' . $item->id . '&catid=' . $item->catid);
+
+                    $html .= '<p><a href="'.$url . '">'.$item->title.'</a><br />'
+                    ."\n".$item->intro.'</p>';
+                    $i++;
+
 					if ($i == $_limit) { break; }
 					
 				}
